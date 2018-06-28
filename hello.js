@@ -5,7 +5,7 @@ var client = require('socket.io')();
 
 
 client.on('connection' , function(socket ){
-	console.log("Client "+clients+ " Connected.....");
+	console.log("Client1 "++ " Connected.....");
 
 	
 
